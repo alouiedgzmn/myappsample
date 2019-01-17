@@ -1,6 +1,6 @@
 function Main() {
     const http = require('http');
-    var port = 8080;
+    var port = 443;
 
     function onRequest(request, response) {
         response.writeHead(200, {"Content-Type": "text/html"});
